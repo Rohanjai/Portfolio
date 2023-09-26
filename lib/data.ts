@@ -35,28 +35,42 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
-    description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+    title:
+      "G K Shetty Vivekananda Vidyalaya Junior College, Secondary Education",
+    location: "Chennai, India",
+    description: "I completed my secondary education.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2018",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title:
+      "Dr.Nalli Kuppuswami Vivekananda Vidyalaya Junior College, Higher Secondary Education",
+    location: "Chennai, India",
     description:
-      "I worked as a front-end developer for a startup. I used React, Redux and Tailwind.",
+      "I completed my higher secondary education. I studied Computer Science, Physics, Chemistry and Mathematics.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2020",
+  },
+  {
+    title: "Intern",
+    location: "QPay India Pvt Ltd, Chennai, India",
+    description: "I worked as an intern.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "Feb 2022 - Mar 2022",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+    title: "Intern",
+    location: "iamNeo Edutech Pvt Ltd, Coiamabtore, India",
+    description: "I worked as an intern.",
+    icon: React.createElement(CgWorkAlt),
+    date: "Jan 2023 - Mar 2023",
+  },
+  {
+    title: "Engineering Graduate",
+    location: "R.M.K. Engineering College, Chennai, India",
+    description: "Currently Pursuing B.E. Computer Science and Engineering",
+    icon: React.createElement(LuGraduationCap),
+    date: "2020 - present",
   },
 ] as const;
 
@@ -64,22 +78,28 @@ export const projectsData = [
   {
     title: "USER API",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "A REST API to manage users. It has features like adding, deleting, editing and archiving users.",
+    tags: ["React", "Node.js", "MongoDB", "Tailwind", "Express"],
     imageUrl: corpcommentImg,
   },
   {
-    title: "Remote Developer Jobs",
+    title: "Google Keep Clone",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "A clone of Google Keep. It is a note-taking app. It has features like adding, deleting, editing and archiving notes.",
+    tags: ["React", "Material UI", "Redux", "Firebase"],
     imageUrl: rmtdevImg,
   },
   {
-    title: "Word Frequency Analytics",
+    title: "Student Repository",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "A web app to showcase the projects done by students. It provides community features where students can get help from other students/mentors.",
+    tags: ["React", "Node.js", "Express", "MongoDB", "Tailwind"],
+    imageUrl: wordanalyticsImg,
+  },
+  {
+    title: "Personal Expense Tracker",
+    description: "A mobile app to track personal expenses.",
+    tags: ["Flutter", "Dart"],
     imageUrl: wordanalyticsImg,
   },
 ] as const;
@@ -89,6 +109,7 @@ export const skillsData = [
   "C++",
   "Java",
   "Python",
+  "Dart",
   "HTML",
   "CSS",
   "JavaScript",
@@ -108,4 +129,7 @@ export const skillsData = [
   "Docker",
   "Django",
   "Framer Motion",
+  "AWS",
+  "Firebase",
+  "Google Cloud",
 ] as const;
