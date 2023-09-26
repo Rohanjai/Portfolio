@@ -7,14 +7,15 @@ import { useSectionInView } from "@/lib/hooks";
 
 export default function About() {
   const { ref } = useSectionInView("About");
+
   return (
     <motion.section
+      ref={ref}
       className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40 scroll-mt-28"
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.175 }}
       id="about"
-      ref={ref}
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
@@ -32,10 +33,12 @@ export default function About() {
         <span className="font-medium">
           React, Next.js, Node.js, MongoDB, Express.js, Tailwind CSS, Typescript
         </span>
-        . I am also familiar with Tensorflow and pytorch for building realtime
-        AI models. I am always looking to learn new technologies. I am currently
-        looking for a <span className="font-medium">full-time position</span> as
-        a machine learning engineer.
+        . I am also familiar with
+        <span className="font-medium"> Tensorflow and Pytorch </span>for
+        building realtime AI models. I am always looking to learn new
+        technologies. I am currently looking for a{" "}
+        <span className="font-medium">full-time position</span> as a machine
+        learning engineer.
       </p>
 
       <p>
