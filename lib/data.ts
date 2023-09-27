@@ -3,8 +3,10 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
+import expense from "@/public/expense.png";
+import studentrepo from "@/public/student_repo.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
+import ggl from "@/public/ggl.png";
 
 export const links = [
   {
@@ -34,14 +36,14 @@ export const links = [
 ] as const;
 
 export const experiencesData = [
-  {
-    title:
-      "G K Shetty Vivekananda Vidyalaya Junior College, Secondary Education",
-    location: "Chennai, India",
-    description: "I completed my secondary education.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2018",
-  },
+  // {
+  //   title:
+  //     "G K Shetty Vivekananda Vidyalaya Junior College, Secondary Education",
+  //   location: "Chennai, India",
+  //   description: "I completed my secondary education.",
+  //   icon: React.createElement(LuGraduationCap),
+  //   date: "2018",
+  // },
   {
     title:
       "Dr.Nalli Kuppuswami Vivekananda Vidyalaya Junior College, Higher Secondary Education",
@@ -87,20 +89,20 @@ export const projectsData = [
     description:
       "A clone of Google Keep. It is a note-taking app. It has features like adding, deleting, editing and archiving notes.",
     tags: ["React", "Material UI", "Redux", "Firebase"],
-    imageUrl: rmtdevImg,
+    imageUrl: ggl,
   },
   {
     title: "Student Repository",
     description:
       "A web app to showcase the projects done by students. It provides community features where students can get help from other students/mentors.",
     tags: ["React", "Node.js", "Express", "MongoDB", "Tailwind"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: studentrepo,
   },
   {
     title: "Personal Expense Tracker",
     description: "A mobile app to track personal expenses.",
     tags: ["Flutter", "Dart"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: expense,
   },
 ] as const;
 
